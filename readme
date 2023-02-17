@@ -1,0 +1,20 @@
+Below I will be keeping JS notes that do not pertain directly to the js I am writing. 
+
+MORE ON innerText: The innerText property can be used to write the dynamic text on the html document. Here, text will not be interpreted as html text but a normal text. It is used mostly in the web pages to generate the dynamic content such as writing the validation message, password strength etc.
+
+The DOM, stands for Document Object Model. This is just how you use JS to modify a website.
+
+Breaking down DOM ...
+Document: because the type of doc you are interacting with is an html doc. 
+Object: because the doc keyword in JS is of the data type object. Meaning they have taken the html doc and shoved it into a js doc
+Model:  a representation of your element from html to js
+
+
+
+when it comes to strings and numbers the string will always come first
+
+example of this
+console.log(4 +5) // 9
+console.log('2' + '4') // '24'
+console.log('5' + 1) // '51'
+console.log(100 + '100') // '100100'
